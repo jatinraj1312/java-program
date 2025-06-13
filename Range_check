@@ -1,0 +1,16 @@
+import java.util.*;
+public class Range_check{
+    public static void main(String[] args){
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter the number:");
+        int a=sc.nextInt();
+        if(a>=10 && a<=100){
+            System.out.println("Value is in given range");
+        }
+        else{
+            System.out.println("Value is not in given range");
+        }
+        
+        
+    }
+}

@@ -1,0 +1,17 @@
+import java.util.*;
+public class Check_Number{
+    public static void main(String[] args){
+        Scanner sc= new Scanner(System.in);
+        double num=sc.nextDouble();
+        if(num>0){
+            System.out.println("The number is positive");
+        }
+        else if(num<0){
+            System.out.println(" The nuymber is negative");
+        }
+        else{
+            System.out.println("The number is zero");
+        }
+        sc.close();
+    }
+}
